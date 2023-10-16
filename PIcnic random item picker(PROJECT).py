@@ -23,7 +23,7 @@ def rendlistgenerator():
     rand_1 = random.randint(1,len(list_items))
     print(rand_1)
     
-    sorted_list["text"]+="\n"+str(list_items[rand_1])
+    sorted_list["text"]+="\n"+str(list_items[rand_1-1])
     
     
 randGen = Button(root,text="ADD TO BAG",command=rendlistgenerator,bg="orange")
